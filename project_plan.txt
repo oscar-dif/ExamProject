@@ -10,16 +10,12 @@ Good to have:
 - flask application.
 
 Relevance:
+A successful data-driven approach can help provide powerful insights. Our machine learning model can help 
+real estate agents correctly estimate sale price of houses for their customers. 
 
-McKinsey (2018): "A successful data-driven approach can yield powerful insights. 
-In one example, an application combining a large database of traditional and nontraditional data
-was used to forecast the three-year rent per square foot for multifamily buildings in Seattle. 
-These machine-learning models predicted rents with an accuracy rate that exceeded 90 percent."
-https://www.mckinsey.com/industries/real-estate/our-insights/getting-ahead-of-the-market-how-big-data-is-transforming-real-estate
-
-Nelson Lau, PhD, CFA (2020): "The real estate industry is likely just at the beginning of a significant shift towards greater use of data
-and data-driven decision making.
-https://towardsdatascience.com/5-ways-to-apply-data-science-to-real-estate-e18cdcd0c1a6
+Dataset:
+80 attributes
+1460 entries
 
 Machine learning
 1. Preprocessing
