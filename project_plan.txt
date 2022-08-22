@@ -1,0 +1,35 @@
+Main goals:
+- forecasting house price using ML.
+- build vizualizations tools to draw insights.
+
+Good to have:
+- ML cluster analysis (identify group of properties that perform similarly).
+- explain price variation.
+- database modeling.
+- create a database.
+- flask application.
+
+Relevance:
+
+McKinsey (2018): "A successful data-driven approach can yield powerful insights. 
+In one example, an application combining a large database of traditional and nontraditional data
+was used to forecast the three-year rent per square foot for multifamily buildings in Seattle. 
+These machine-learning models predicted rents with an accuracy rate that exceeded 90 percent."
+https://www.mckinsey.com/industries/real-estate/our-insights/getting-ahead-of-the-market-how-big-data-is-transforming-real-estate
+
+Nelson Lau, PhD, CFA (2020): "The real estate industry is likely just at the beginning of a significant shift towards greater use of data
+and data-driven decision making.
+https://towardsdatascience.com/5-ways-to-apply-data-science-to-real-estate-e18cdcd0c1a6
+
+Machine learning
+1. Preprocessing
+1.1. Load data - pandas read_csv and define X and y
+1.2. Make lables for classes (strings) - sklearn.preprocessing LabelEncoder
+1.3. Standardize numeric data - sklearn.preprocessing StandardScaler
+1.4. Split the data into train and test sets - sklearn.model_selection train_test_split
+
+2. Create  and apply regression model
+2.1. Create objects of an algorithm to store the models: linear, SVM, NN, random forest
+2.2. Fit/train the model with your training set
+2.3. Predict and analyze the results in the test set
+2.4. Compare and select the best model
