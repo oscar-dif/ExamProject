@@ -29,3 +29,10 @@ Machine learning
 2.2. Fit/train the model with your training set
 2.3. Predict and analyze the results in the test set
 2.4. Compare and select the best model
+
+
+What to do next:
+- Lable encoder X ordinal encoder
+- Standard Scaler (bsmtfinsf1, totalbsmtsf )
+- Categorical variables 
+- Grid search for GBM and LGBM
