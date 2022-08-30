@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>House price prediction</title>
+  </head>
+  <body>
+    <h1>House price prediction</h1>
+    <p> {{date[0]}}-{{date[1]}}-{{date[2]}}:</p>
+    <ul>
+       {% for item in list %}
+          <li>{{item[0]}}: {{item[1]}}</li>
+       {% endfor %}
+    </ul>
+
+
+    <form action="/insert">
+       <label for="overall quality">Insert overall quality rate:</label><br>
+       <input type="text" id="overallqual" name="overallqual" value="1 to 10"><br>
+       <label for="year built">Insert year built:</label><br>
+       <input type="text" id="yearbuilt" name="yearbuilt" value="2000"><br>
+       <label for="garage cars">Insert number of garage cars:</label><br>
+       <input type="number" id="year built" name="overallqual" value=0><br>
+       <label for="total basement area">Insert basement area:</label><br>
+       <input type="number" id="yotalbsntsf" name="total basement area" value=0><br>
+       <label for="bedroomabvgr">Insert number of bedrooms aborve ground:</label><br>
+       <input type="number" id="bedroomabvgr" name="bedroom above ground" value=1><br>
+       <label for="kitchenabvgr">Insert number of basement full bathroo:</label><br>
+       <input type="number" id="kitchenabvgr" name="kitchen above ground" value=0><br>
+       <label for="overall quality">Insert year built</label><br>
+       <input type="text" id="overallqual" name="overallqual" value="1 to 10"><br>
+       <label for="garage cars">Insert number of garage cars:</label><br>
+       <input type="number" id="garagecars" name="garage cars" value="from 0"><br>      
+       <label for="name">Insert:</label><br>
+       <input type="text" id="name" name="name" value="John"><br>
+       <label for="name">Insert:</label><br>
+       <input type="text" id="phone" name="phone" value="07xx-xxxxxxx">
+       <label for="name">Insert:</label><br>
+       <input type="submit" value="Insert">
+    </form>
+  </body>
+</html>
+
