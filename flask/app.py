@@ -8,7 +8,7 @@ df_flask ={}
 def read_db(C):
     cur = C.cursor()
     cur.execute('''SELECT overallqual AS "overall quality" , 
-                AVG(price_per_sqft) AS "average price per square feet" 
+                ROUND(AVG(price_per_sqft)) AS "average price per square feet" 
                 FROM houses
                 GROUP BY overallqual
                 ORDER BY overallqual desc;''')
@@ -82,7 +82,7 @@ def insert_function():
                     int(kitchenqual),
                     int(bsmtqual))
     prediction= forecast_price(X)
-    return render_template('insert.html', nparray_flask=prediction)
+    return render_template('insert.html', nparray_flask=round(prediction[0],2))
 
 if __name__ == "__main__":
     app.run(host='localhost')
